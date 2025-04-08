@@ -1,0 +1,18 @@
+{
+    "groups": [
+      {
+        "name": "web-stack",
+        "services": [
+          { "name": "nginx", "status": "running", "ip": "172.18.0.2" },
+          { "name": "app", "status": "stopped", "ip": "172.18.0.3" }
+        ]
+      },
+      {
+        "name": "db-stack",
+        "services": [
+          { "name": "postgres", "status": "running", "ip": "172.18.0.4" }
+        ]
+      }
+    ]
+  }
+  
